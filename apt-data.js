@@ -29,10 +29,11 @@ const apartments = [
         parking: true,
         immediate: false,
         features: [
-            "ac",
-            "elevator",
-            "laundry" ,
-            "dishWasher"
+            "Ac",
+            "Elevator",
+            "Accesible",
+            "Laundry" ,
+            "DishWasher"
         ],
         contactDetails: {
             name: "William",
@@ -40,16 +41,18 @@ const apartments = [
         }
     },
     {
-        img: "https://blenderartists.org/uploads/default/original/4X/2/f/9/2f9d2a683dd5eada8bf64a590aa20a01312509ca.jpg",
+        img: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
         address: "100 Bonaroo Road, East Dingling",
         price: 1000,
         rooms: 3,
         parking: false,
         immediate: true,
         features: [
-            "ac",
-            "elevator",
-            "accesible"
+            "Ac",
+            "Elevator",
+            "Accesible",
+            "Laundry" ,
+            "DishWasher"
         ],
         contactDetails: {
             name: "Rickay",
@@ -64,10 +67,11 @@ const apartments = [
         parking: false,
         immediate: false,
         features: [
-            "elevator",
-            "accesible",
-            "laundry" ,
-            "dishWasher"
+            "Ac",
+            "Elevator",
+            "Accesible",
+            "Laundry" ,
+            "DishWasher"
         ],
         contactDetails: {
             name: "Charles",
@@ -82,9 +86,11 @@ const apartments = [
         parking: true,
         immediate: true,
         features: [
-            "accesible",
-            "laundry" ,
-            "dishWasher"
+            "Ac",
+            "Elevator",
+            "Accesible",
+            "Laundry" ,
+            "DishWasher"
         ],
         contactDetails: {
             name: "Trevor",
@@ -99,10 +105,11 @@ const apartments = [
         parking: false,
         immediate: false,
         features: [
-            "elevator",
-            "accesible",
-            "laundry" ,
-            "dishWasher"
+            "Ac",
+            "Elevator",
+            "Accesible",
+            "Laundry" ,
+            "DishWasher"
         ],
         contactDetails: {
             name: "Charles",
@@ -114,12 +121,14 @@ const apartments = [
         address: "A.D Nooks Plaza, 16 St.",
         price: 11000,
         rooms: 6,
-        parking: true,
+        parking: false,
         immediate: true,
         features: [
-            "accesible",
-            "laundry" ,
-            "dishWasher"
+            "Ac",
+            "Elevator",
+            "Accesible",
+            "Laundry" ,
+            "DishWasher"
         ],
         contactDetails: {
             name: "Trevor",
@@ -151,12 +160,13 @@ const apartments = [
         price: 12000,
         rooms: 5,
         parking: true,
-        immediate: false,
+        immediate: true,
         features: [
-            "ac",
-            "elevator",
-            "laundry" ,
-            "dishWasher"
+            "Ac",
+            "Elevator",
+            "Accesible",
+            "Laundry" ,
+            "DishWasher"
         ],
         contactDetails: {
             name: "William",
