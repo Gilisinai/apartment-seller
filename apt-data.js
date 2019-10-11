@@ -9,7 +9,13 @@ const apartments = [
         rooms: 2,
         parking: false,
         immediate: true,
-        features: ["ac","shower","washer"],
+        features: [
+            "Ac",
+            "Elevator",
+            "Accesible",
+            "Laundry" ,
+            "DishWasher"
+        ],
         contactDetails: {
             name: "Douglas",
             email: "doug@less.com"
@@ -22,7 +28,12 @@ const apartments = [
         rooms: 5,
         parking: true,
         immediate: false,
-        features: ["ac","shower","toilet","washer"],
+        features: [
+            "ac",
+            "elevator",
+            "laundry" ,
+            "dishWasher"
+        ],
         contactDetails: {
             name: "William",
             email: "will@i.am"
@@ -35,7 +46,11 @@ const apartments = [
         rooms: 3,
         parking: false,
         immediate: true,
-        features: ["ac","shower","washer"],
+        features: [
+            "ac",
+            "elevator",
+            "accesible"
+        ],
         contactDetails: {
             name: "Rickay",
             email: "rrrrick@cucumber.com"
@@ -48,7 +63,12 @@ const apartments = [
         rooms: 4,
         parking: false,
         immediate: false,
-        features: ["shower","toilet","washer"],
+        features: [
+            "elevator",
+            "accesible",
+            "laundry" ,
+            "dishWasher"
+        ],
         contactDetails: {
             name: "Charles",
             email: "charles.smith@coldmail.com"
@@ -61,10 +81,86 @@ const apartments = [
         rooms: 6,
         parking: true,
         immediate: true,
-        features: ["ac","shower","toilet","washer"],
+        features: [
+            "accesible",
+            "laundry" ,
+            "dishWasher"
+        ],
         contactDetails: {
             name: "Trevor",
             email: "t@noah.ark"
+        }
+    },
+    {
+        img: "http://mat2.materialicious.com/images/space-house-803-o.jpg",
+        address: "McGraw Chukitee, 80",
+        price: 2300,
+        rooms: 4,
+        parking: false,
+        immediate: false,
+        features: [
+            "elevator",
+            "accesible",
+            "laundry" ,
+            "dishWasher"
+        ],
+        contactDetails: {
+            name: "Charles",
+            email: "charles.smith@coldmail.com"
+        }
+    },
+    {
+        img: "http://www.kucasnova.com/wp-content/uploads/2014/01/projekat-kuce-sa-potkrovljem-i-garazom-4-1.jpg",
+        address: "A.D Nooks Plaza, 16 St.",
+        price: 11000,
+        rooms: 6,
+        parking: true,
+        immediate: true,
+        features: [
+            "accesible",
+            "laundry" ,
+            "dishWasher"
+        ],
+        contactDetails: {
+            name: "Trevor",
+            email: "t@noah.ark"
+        }
+    },
+    {
+        img: "https://circaoldhouses.com/wp-content/uploads/2017/10/key-hole-house-1.jpg",
+        address: "P. Sherman 42 Wallabe Way, Sydney",
+        price: 2400,
+        rooms: 2,
+        parking: false,
+        immediate: true,
+        features: [
+            "Ac",
+            "Elevator",
+            "Accesible",
+            "Laundry" ,
+            "DishWasher"
+        ],
+        contactDetails: {
+            name: "Douglas",
+            email: "doug@less.com"
+        }
+    },
+    {
+        img: "https://i.pinimg.com/736x/17/f2/6e/17f26e8f188af5d3e377dacb2011889a--mediterranean-houses-mediterranean-style.jpg",
+        address: "Cherobee 21, South Boulevard",
+        price: 12000,
+        rooms: 5,
+        parking: true,
+        immediate: false,
+        features: [
+            "ac",
+            "elevator",
+            "laundry" ,
+            "dishWasher"
+        ],
+        contactDetails: {
+            name: "William",
+            email: "will@i.am"
         }
     }
 ]

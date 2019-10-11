@@ -4,14 +4,16 @@
 <head>
     <title>Selouse</title>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css" />
+     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+    <link rel="stylesheet" type="text/css" href="style1.css" />
 </head>
 
 <body>
 
+    <div id="open"></div>
     <div id="search">
         <input type="text" placeholder="Address" id="addr-input">
         <input type="number" class="min price" placeholder="Min. Price" id="min-p-input">
@@ -29,38 +31,51 @@
         </div>
 
         <button>Find Apartments</button>
+
     </div>
 
-    <hr>
+
 
     <div id="results"></div>
 
-  
+
     <script id="apt-template" type="text/x-handlebars-template">
         {{#each apartments}}
         <div class="result">
+            
         <img src="{{this.img}}">
-       <div class="l-addr"> Address: {{this.address}}</div>
-       <div class="l-price">Price: {{this.price}}</div>
-       <div class="l-rooms">Rooms: {{this.rooms}}</div>
+        <span class="pricing"> {{this.price}}$</span>
+        <div class="info">
+       <div class="address"> <i class="fas fa-map-marker-alt"></i> {{this.address}}</div>
+       <div class="prop">Rooms: {{this.rooms}}</div>
+       <div class="feature">
+        {{#each this.features}}
+     
+          {{this}}
+     
+         {{/each}}
+       </div>
        {{#if parking}}
-       <div class="l-park">Parking available</div>
+       <div class="prop">Parking available</div>
        {{/if}}
        {{#if immediate}}
-       <div class="immediate">{{this.contactDetails.name}} {{this.contactDetails.email}}</div>
+       <div class="prop">{{this.contactDetails.name}} {{this.contactDetails.email}}</div>
        {{/if}}
        </div>
+       </div>
         {{/each}}
+        
         {{#unless apartments}}
         <div class="no-match">Sorry , no apartments available for you...</div>
         {{/unless}}
     </script>
-    
-
-    
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
     <script src="apt-data.js"></script>
     <script src="apt-filter.js"></script>

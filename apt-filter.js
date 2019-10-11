@@ -11,14 +11,13 @@ const findRelevantApts = function (address, minPrice, maxPrice, minRooms, maxRoo
         a.rooms <= (maxRooms || a.rooms)
     )
     
-    parking = !parking[0].checked
     immediate = !immediate[0].checked
-    return parking ? relevantApts 
-    : relevantApts.filter(a => (a.parking)) 
-    // :immediate ? relevantApts : relevantApts.filter(a => (a.immediate))
+    relevantApts = immediate ? relevantApts : relevantApts.filter(a => (a.immediate))
 
-        // immediate ? relevantApts : relevantApts.filter(a => (a.immediate)) ,
-        // parking ? relevantApts : relevantApts.filter(a => (a.parking))
+    parking = !parking[0].checked
+    relevantApts = parking ? relevantApts : relevantApts.filter(a => (a.parking)) 
 
+    return relevantApts
+    
     
 }
