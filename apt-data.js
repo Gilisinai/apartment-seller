@@ -4,17 +4,17 @@
 const apartments = [
     {
         img: "https://circaoldhouses.com/wp-content/uploads/2017/10/key-hole-house-1.jpg",
-        address: "P. Sherman 42 Wallabe Way, Sydney",
+        address: "P. Sherman 42 Wallabe Way",
         price: 2400,
         rooms: 2,
         parking: false,
         immediate: true,
         features: [
-            "Ac",
-            "Elevator",
-            "Accesible",
-            "Laundry" ,
-            "DishWasher"
+            "fan",
+            "wheelchair",
+            "bath",
+            "desktop" ,
+            "phone"
         ],
         contactDetails: {
             name: "Douglas",
@@ -29,11 +29,11 @@ const apartments = [
         parking: true,
         immediate: false,
         features: [
-            "Ac",
-            "Elevator",
-            "Accesible",
-            "Laundry" ,
-            "DishWasher"
+            "fan",
+            "wheelchair",
+            "bath",
+            "desktop" ,
+            "phone"
         ],
         contactDetails: {
             name: "William",
@@ -48,11 +48,11 @@ const apartments = [
         parking: false,
         immediate: true,
         features: [
-            "Ac",
-            "Elevator",
-            "Accesible",
-            "Laundry" ,
-            "DishWasher"
+            "fan",
+            "wheelchair",
+            "bath",
+            "desktop" ,
+            "phone"
         ],
         contactDetails: {
             name: "Rickay",
@@ -67,11 +67,11 @@ const apartments = [
         parking: false,
         immediate: false,
         features: [
-            "Ac",
-            "Elevator",
-            "Accesible",
-            "Laundry" ,
-            "DishWasher"
+            "fan",
+            "wheelchair",
+            "bath",
+            "desktop" ,
+            "phone"
         ],
         contactDetails: {
             name: "Charles",
@@ -86,11 +86,11 @@ const apartments = [
         parking: true,
         immediate: true,
         features: [
-            "Ac",
-            "Elevator",
-            "Accesible",
-            "Laundry" ,
-            "DishWasher"
+            "fan",
+            "wheelchair",
+            "bath",
+            "desktop" ,
+            "phone"
         ],
         contactDetails: {
             name: "Trevor",
@@ -105,11 +105,11 @@ const apartments = [
         parking: false,
         immediate: false,
         features: [
-            "Ac",
-            "Elevator",
-            "Accesible",
-            "Laundry" ,
-            "DishWasher"
+            "fan",
+            "wheelchair",
+            "bath",
+            "desktop" ,
+            "phone"
         ],
         contactDetails: {
             name: "Charles",
@@ -124,11 +124,11 @@ const apartments = [
         parking: false,
         immediate: true,
         features: [
-            "Ac",
-            "Elevator",
-            "Accesible",
-            "Laundry" ,
-            "DishWasher"
+            "fan",
+            "wheelchair",
+            "bath",
+            "desktop" ,
+            "phone"
         ],
         contactDetails: {
             name: "Trevor",
@@ -137,17 +137,17 @@ const apartments = [
     },
     {
         img: "https://circaoldhouses.com/wp-content/uploads/2017/10/key-hole-house-1.jpg",
-        address: "P. Sherman 42 Wallabe Way, Sydney",
+        address: "P. Sherman 42 Wallabe Way",
         price: 2400,
         rooms: 2,
         parking: false,
         immediate: true,
         features: [
-            "Ac",
-            "Elevator",
-            "Accesible",
-            "Laundry" ,
-            "DishWasher"
+            "fan",
+            "wheelchair",
+            "bath",
+            "desktop" ,
+            "phone"
         ],
         contactDetails: {
             name: "Douglas",
@@ -162,11 +162,11 @@ const apartments = [
         parking: true,
         immediate: true,
         features: [
-            "Ac",
-            "Elevator",
-            "Accesible",
-            "Laundry" ,
-            "DishWasher"
+            "fan",
+            "wheelchair",
+            "bath",
+            "desktop" ,
+            "phone"
         ],
         contactDetails: {
             name: "William",
