@@ -90,7 +90,7 @@ label{
     display: inline-block;
 }
 
-button {
+#find {
     display: block;
     padding: 10px 25px;
     margin-left: 50vw;
@@ -106,7 +106,7 @@ button {
      
 }
 
-button:hover {
+#find:hover {
     background-color: black;
     border: 1px solid black;
 }
@@ -153,8 +153,13 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr;
-    margin-left: 7%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 10vw;
 }
+
+
+
 
 .result {
     height: 80vh;
@@ -223,4 +228,19 @@ img{
     height: 40vh;
     max-height: 300px;
       
+}
+
+#sticky {
+    position: sticky;
+    bottom: 20px;
+    left: 90vw;
+    padding: 10px;
+    background-color: rgb(151,77,39);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid rgb(151,77,39);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
 }

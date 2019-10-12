@@ -29,8 +29,6 @@ const apartments = [
         parking: true,
         immediate: false,
         features: [
-            "fan",
-            "wheelchair",
             "bath",
             "desktop" ,
             "phone"
@@ -50,9 +48,7 @@ const apartments = [
         features: [
             "fan",
             "wheelchair",
-            "bath",
-            "desktop" ,
-            "phone"
+            "swimmer"
         ],
         contactDetails: {
             name: "Rickay",
@@ -87,7 +83,6 @@ const apartments = [
         immediate: true,
         features: [
             "fan",
-            "wheelchair",
             "bath",
             "desktop" ,
             "phone"
@@ -98,14 +93,13 @@ const apartments = [
         }
     },
     {
-        img: "http://mat2.materialicious.com/images/space-house-803-o.jpg",
+        img: "https://images.unsplash.com/photo-1472224371017-08207f84aaae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
         address: "McGraw Chukitee, 80",
-        price: 2300,
+        price: 9500,
         rooms: 4,
         parking: false,
         immediate: false,
         features: [
-            "fan",
             "wheelchair",
             "bath",
             "desktop" ,
@@ -117,18 +111,18 @@ const apartments = [
         }
     },
     {
-        img: "http://www.kucasnova.com/wp-content/uploads/2014/01/projekat-kuce-sa-potkrovljem-i-garazom-4-1.jpg",
+        img: "https://images.unsplash.com/photo-1416331108676-a22ccb276e35?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80",
         address: "A.D Nooks Plaza, 16 St.",
-        price: 11000,
+        price: 25000,
         rooms: 6,
         parking: false,
         immediate: true,
         features: [
             "fan",
             "wheelchair",
-            "bath",
             "desktop" ,
-            "phone"
+            "phone",
+            "swimmer"
         ],
         contactDetails: {
             name: "Trevor",
@@ -136,9 +130,9 @@ const apartments = [
         }
     },
     {
-        img: "https://circaoldhouses.com/wp-content/uploads/2017/10/key-hole-house-1.jpg",
+        img: "https://images.unsplash.com/photo-1530734218972-25a9391ccd8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
         address: "P. Sherman 42 Wallabe Way",
-        price: 2400,
+        price: 7600,
         rooms: 2,
         parking: false,
         immediate: true,
@@ -146,8 +140,8 @@ const apartments = [
             "fan",
             "wheelchair",
             "bath",
-            "desktop" ,
-            "phone"
+            "desktop" 
+            
         ],
         contactDetails: {
             name: "Douglas",
@@ -155,9 +149,9 @@ const apartments = [
         }
     },
     {
-        img: "https://i.pinimg.com/736x/17/f2/6e/17f26e8f188af5d3e377dacb2011889a--mediterranean-houses-mediterranean-style.jpg",
+        img: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
         address: "Cherobee 21, South Boulevard",
-        price: 12000,
+        price: 34000,
         rooms: 5,
         parking: true,
         immediate: true,
@@ -165,8 +159,8 @@ const apartments = [
             "fan",
             "wheelchair",
             "bath",
-            "desktop" ,
-            "phone"
+            "phone",
+            "swimmer"
         ],
         contactDetails: {
             name: "William",
