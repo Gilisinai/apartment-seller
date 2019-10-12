@@ -31,7 +31,7 @@ $(document).ready(function(){
         } 
     }); 
     $('#sticky').click(function(){ 
-        $("html, body").animate({ scrollTop: 0 }, 600); 
+        $("html, body").animate({ scrollTop: 300 }, 600); 
         return false; 
     }); 
 });
