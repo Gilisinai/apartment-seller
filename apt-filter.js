@@ -22,16 +22,3 @@ const findRelevantApts = function (address, minPrice, maxPrice, minRooms, maxRoo
     
 }
 
-$(document).ready(function(){ 
-    $(window).scroll(function(){ 
-        if ($(this).scrollTop() > 100) { 
-            $('#sticky').fadeIn(); 
-        } else { 
-            $('#sticky').fadeOut(); 
-        } 
-    }); 
-    $('#sticky').click(function(){ 
-        $("html, body").animate({ scrollTop: 300 }, 600); 
-        return false; 
-    }); 
-});

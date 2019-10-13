@@ -7,6 +7,7 @@ const apartments = [
         address: "P. Sherman 42 Wallabe Way",
         price: 2400,
         rooms: 2,
+        description: "A nice description of a beautiful house that you probably cant afford...",
         parking: false,
         immediate: true,
         features: [
@@ -26,6 +27,7 @@ const apartments = [
         address: "Cherobee 21, South Boulevard",
         price: 12000,
         rooms: 5,
+        description: "A nice description of a beautiful house that you probably cant afford...",
         parking: true,
         immediate: false,
         features: [
@@ -43,6 +45,7 @@ const apartments = [
         address: "100 Bonaroo Road, East Dingling",
         price: 1000,
         rooms: 3,
+        description: "A nice description of a beautiful house that you probably cant afford...",
         parking: false,
         immediate: true,
         features: [
@@ -60,6 +63,7 @@ const apartments = [
         address: "McGraw Chukitee, 80",
         price: 2300,
         rooms: 4,
+        description: "A nice description of a beautiful house that you probably cant afford...",
         parking: false,
         immediate: false,
         features: [
@@ -79,6 +83,7 @@ const apartments = [
         address: "A.D Nooks Plaza, 16 St.",
         price: 11000,
         rooms: 6,
+        description: "A nice description of a beautiful house that you probably cant afford...",
         parking: true,
         immediate: true,
         features: [
@@ -97,6 +102,7 @@ const apartments = [
         address: "McGraw Chukitee, 80",
         price: 9500,
         rooms: 4,
+        description: "A nice description of a beautiful house that you probably cant afford...",
         parking: false,
         immediate: false,
         features: [
@@ -115,6 +121,7 @@ const apartments = [
         address: "A.D Nooks Plaza, 16 St.",
         price: 25000,
         rooms: 6,
+        description: "A nice description of a beautiful house that you probably cant afford...",
         parking: false,
         immediate: true,
         features: [
@@ -134,6 +141,7 @@ const apartments = [
         address: "P. Sherman 42 Wallabe Way",
         price: 7600,
         rooms: 2,
+        description: "A nice description of a beautiful house that you probably cant afford...",
         parking: false,
         immediate: true,
         features: [
@@ -153,6 +161,7 @@ const apartments = [
         address: "Cherobee 21, South Boulevard",
         price: 34000,
         rooms: 5,
+        description: "A nice description of a beautiful house that you probably cant afford...",
         parking: true,
         immediate: true,
         features: [

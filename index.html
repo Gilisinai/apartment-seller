@@ -61,14 +61,17 @@
        <div class="address"> <i class="fas fa-map-marker-alt"></i> {{this.address}}</div>
        <div class="prop"><i class="fas fa-bed"></i> {{this.rooms}}</div>
        
-       {{#if parking}}
-       <div class="prop">Parking available</div>
-       {{/if}}
+       
+       <div class="description"> {{this.description}}</div>
+       
        {{#if immediate}}
-       <div class="prop">{{this.contactDetails.name}} {{this.contactDetails.email}}</div>
+       <div class="contact">contact: {{this.contactDetails.name}} <i class="far fa-envelope"></i> {{this.contactDetails.email}}</div>
        {{/if}}
        <div class="feature">
             In the house: <br>
+             {{#if parking}}
+      <i class="fas fa-parking"></i>
+       {{/if}}
         {{#each this.features}}
      
           <i class="fas fa-{{this}}"></i>
