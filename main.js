@@ -10,6 +10,7 @@ $("button").on("click", function () {
 
     let relevantApts = findRelevantApts(address, minPrice, maxPrice, minRooms, maxRooms, immediate, parking)
     renderApts(relevantApts)
+    $("#relevant").text(relevantApts.length).css("color","red")
 })
 
 const renderApts = function (apartments) {
@@ -38,3 +39,7 @@ $(document).ready(function(){
         return false; 
     }); 
 });
+
+
+
+$("#apts").text(apartments.length)

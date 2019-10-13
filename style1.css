@@ -124,8 +124,8 @@ label{
      cursor: pointer;     
      outline: none;
 }
-.form-radio:checked::before
-{
+
+.form-radio:checked::before {
      position: absolute;
      font: 13px/1 'Open Sans', sans-serif;
      left: 11px;
@@ -133,13 +133,19 @@ label{
      content: '\02143';
      transform: rotate(40deg);
 }
-.form-radio:hover
-{
+
+.form-radio:hover {
      background-color: #f7f7f7;
 }
-.form-radio:checked
-{
+
+.form-radio:checked {
      background-color: #f1f1f1;
+}
+
+#count-results {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 #results {
@@ -151,6 +157,7 @@ label{
     margin-right: auto;
     margin-left: auto;
     padding-right: 10vw;
+    
 }
 
 
